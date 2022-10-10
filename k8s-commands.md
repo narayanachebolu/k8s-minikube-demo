@@ -38,8 +38,3 @@ minikube start --vm-driver=hyperkit
 echo -n 'username' | base64
 echo -n 'password' | base64
 ```
-
-# install docker engine
-```
-https://docs.docker.com/engine/install/ubuntu/
-```
