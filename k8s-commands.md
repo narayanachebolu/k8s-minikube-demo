@@ -23,3 +23,6 @@ minikube service mongo-express-service
 # start minikube
 minikube start --vm-driver=hyperkit
 
+# generate base64 credentials
+echo -n 'username' | base64
+echo -n 'password' | base64
